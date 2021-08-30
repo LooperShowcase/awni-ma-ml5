@@ -4,14 +4,14 @@ class Player1 {
     this.x = 50;
     this.y = height - this.size;
     this.Velosity = 0;
-    this.gravity = 0.7;
+    this.gravity = 1;
   }
   show() {
     image(playerimg, this.x, this.y, this.size, this.size);
   }
   jump() {
     if (this.y === height - this.size) {
-      this.Velosity = -18;
+      this.Velosity = -25;
     }
   }
   move() {
