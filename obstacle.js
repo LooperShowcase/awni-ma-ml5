@@ -9,7 +9,7 @@ class Obs {
     image(obsimg, this.x, this.y, this.size, this.size);
   }
   move() {
-    this.vel = -5;
+    this.vel = -10;
     this.x += this.vel;
   }
 }
